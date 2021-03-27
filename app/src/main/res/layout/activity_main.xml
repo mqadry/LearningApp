@@ -24,4 +24,41 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp" />
 
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/friendProfilePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text="Name:"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text="Email:"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/userID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:text="ID:"
+        android:layout_gravity="center"/>
+
 </LinearLayout>
